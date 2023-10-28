@@ -1,0 +1,25 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+  "forwardPorts": [ 
+    8080,
+    5173
+   ],
+  "customizations": { 
+    "vscode": { 
+      "extensions": [ 
+        "GitHub.copilot", // Copilot
+        "ms-vscode-remote.remote-containers", // Dev Containers
+        "humao.rest-client", // REST Client
+        "bradlc.vscode-tailwindcss", // Tailwind CSS
+        "firsttris.vscode-jest-runner", // Jest Runner
+        "ms-azuretools.vscode-docker", // Docker
+        "rust-lang.rust-analyzer", // Rust Analyzer
+        "serayuzgur.crates" // Cargo
+      ] 
+    } 
+  }
+}
