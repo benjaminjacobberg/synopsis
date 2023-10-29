@@ -1,0 +1,12 @@
+### Summarize
+POST http://localhost:8080/api/summarize
+Accept: application/json
+Content-Type: application/json
+
+{
+    "text": "In general. The Secretary of Homeland Security is authorized to waive the prohibition under subsection (a) if the Secretary certifies in writing to the Committee on Homeland Security of the House of Representatives and the Committee on Homeland Security and Governmental Affairs of the Senate that a UAS, a software operating system associated with a UAS, or a system for the detection or identification of a UAS described in any of paragraphs (1) through (3) of such subsection that is the subject of such a waiver is required",
+    "range": {
+        "min": 5,
+        "max": 10
+    }
+}

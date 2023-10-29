@@ -1,0 +1,20 @@
+[package]
+name = "synopsis-service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-bert = { version = "0.21.0", features = ["download-libtorch"] }
+text-splitter = { version = "0.4.4", features = ["tokenizers"]}
+tokenizers = { version = "0.14.1", features = ["http"] }
+actix = "0.13.1"
+actix-web = "4.4.0"
+actix-rt = "2.9.0"
+actix-cors = "0.6.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+env_logger = "0.10.0"
+thiserror = "1.0.50"
+tokio = { version = "1.33.0", features = ["full"] }
