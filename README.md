@@ -45,6 +45,10 @@ curl --request POST \
 - [text-splitter](https://github.com/benbrandt/text-splitter)
 - [rust-bert](https://github.com/guillaume-be/rust-bert)
 
+## TODO
+
+- Create a UI
+
 ## License
 
 [MIT License](LICENSE)
